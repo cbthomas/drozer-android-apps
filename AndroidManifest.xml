@@ -137,7 +137,7 @@
         <provider
             android:authorities="com.example.contentsniffer.database"
             android:name="com.example.contentsniffer.Database"
-            android:exported="false">
+            android:exported="true">
         </provider>
         <receiver android:name="com.example.contentsniffer.intentReceiver">
             <intent-filter>
