@@ -19,7 +19,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 	Button AddData, UpdateView;
 	TextView data;
-	EditText input;
+	TextView input;
 	ContentResolver resolver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         AddData = (Button) findViewById(R.id.AddDataButton);
         UpdateView = (Button) findViewById(R.id.UpdateViewButton);
         data = (TextView) findViewById(R.id.contentData);
-        input = (EditText) findViewById(R.id.input);
+        input = (TextView) findViewById(R.id.input);
         resolver = getContentResolver();
         AddData.setOnClickListener(new View.OnClickListener(){
         	public void onClick(View v){

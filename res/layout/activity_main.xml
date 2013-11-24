@@ -11,29 +11,22 @@
         android:id="@+id/AddDataButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
+        android:text="Insert intent below"
       ></Button>
     <Button
         android:id="@+id/UpdateViewButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/AddDataButton"
-        android:text="Update"
+        android:text="Query All"
         ></Button>
-    <Button
-        android:id="@+id/QueryButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/UpdateViewButton"
-        android:text="Query"
-        ></Button>
-    <EditText
+    <TextView
         android:id="@+id/input"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/AddDataButton"
         android:text="action category uri 12 scheme type blob"
-        ></EditText>
+        ></TextView>
 
     <ScrollView
         android:id="@+id/scrollView1"
@@ -45,7 +38,7 @@
             android:id="@+id/contentData"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hello_world" />
+            android:text="This is where your intents will be shown when you query:" />
 
     </ScrollView>
 
