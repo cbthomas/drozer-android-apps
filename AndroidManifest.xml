@@ -139,10 +139,9 @@
             android:name="com.example.contentsniffer.Database"
             android:exported="true">
         </provider>
-        <receiver android:name="com.example.contentsniffer.intentReceiver">
-            <intent-filter>
-                <action android:name="TEST"></action>
-            </intent-filter>
+        <receiver android:name="com.example.contentsniffer.intentReceiver"
+            android:exported="false">
+            
  		<intent-filter>
 <action android:name="android.intent.action.CHOOSER"> 
 </action> 
